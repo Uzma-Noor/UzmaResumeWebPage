@@ -1,0 +1,202 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  color: #66BFBF;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.50rem;
+  color: #11999E;
+  font-weight: normal;
+}
+
+a{
+  color: #11999E;
+}
+
+div {
+  background-color: #E4F9F5;
+  margin-top: 0;
+}
+
+.mainSkillsDiv{
+  position: relative;
+  margin: 0 100px;
+}
+
+.applicationSkillsDiv{
+  position: relative;
+  margin: 0 100px;
+}
+
+.col-sm-4{
+  display: flex;
+}
+
+hr {
+  border: dotted grey;
+  border-width: 0.3em 0 0 0px;
+  height: 0px;
+  width: 25%;
+}
+
+.top-container {
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.middle-container {
+  line-height: 2;
+}
+
+.bottom-container {
+  line-height: 1.5;
+  background-color: #66BFBF;
+  padding: 20px;
+  box-shadow: 1px 1px 20px 0 black;
+}
+
+.myImage {
+  width: 15%;
+  height: 10%;
+  border-radius: 50%;
+  padding: 20px;
+  margin: 10px;
+}
+
+.skills-img{
+  width: 15%;
+  height:15%;
+  border-radius: 50%;
+  padding: 20px;
+  margin: 10px;
+}
+
+.skillsSubDiv{
+  position: relative;
+  flex: 1;
+  align-self: center;
+}
+.imgDiv{
+  position: absolute;
+  color: white;
+  top: 73%;
+  right: 50%;
+  bottom: 50%;
+  left: 39%;
+  background-color: black;
+  visibility: hidden;
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+  opacity:0.5;
+  padding: 1px 20px;
+}
+.skillsImgs{
+  position: absolute;
+}
+
+#ncr {
+  color: #00af91;
+  font-weight: bold;
+}
+
+#oracle {
+  color: #ec4646;
+  font-weight: bold;
+}
+
+.skillImgs {
+  width: 30%;
+  height: 21%;
+  margin: 40px;
+  padding: 10px;
+  border-radius: 50%;
+    cursor: pointer;
+}
+
+.skill-row {
+  border-radius: 0;
+  margin:10px auto 10px auto;
+}
+
+.springimg {
+  border-radius: 50%;
+}
+
+.contactme{
+  color: #EAF6F6;
+  background-color: #66BFBF;
+  line-height: 2;
+  border-radius: 10px;
+  font-size: 1rem;
+  padding: 0 20px;
+  cursor:pointer;
+  box-shadow: 1px 1px 20px 0 #eaf6f6;
+  text-shadow: 1px 1px 20px #eaf6f6;
+  border: solid #EAF6F6 1px;
+  margin-bottom: 50px;
+  background-image: -o-linear-gradient(top, #11cdd4, #11999E);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999E);
+}
+
+.contactme:hover{
+  color: #EAF6F6;
+  background-color: #66BFBF;
+  line-height: 2;
+  border-radius: 10px;
+  font-size: 1rem;
+  padding: 0 20px;
+  cursor:pointer;
+  box-shadow: 1px 1px 20px 0 #eaf6f6;
+  text-shadow: 1px 1px 20px #eaf6f6;
+  border: solid #EAF6F6 1px;
+  margin-bottom: 50px;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+}
+
+.footerImg{
+  width: 3%;
+  border-radius: 100%;
+  margin: 7px 7px 0 7px;
+}
+
+.imgOpacity{
+  opacity: 0.50;
+}
+
+.resumeImg{
+  border-radius: 50%;
+  width: 5%;
+  height: 5%;
+  margin-bottom: 30px;
+}
